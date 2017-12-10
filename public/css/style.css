@@ -1,0 +1,66 @@
+#list {
+  display: none;
+}
+.contact-me-page .section.section-team.see-through.text-center {
+  background: none;
+}
+.contact-me-page .section.section-contact-us.text-center {
+  background: none;
+}
+.contact-me-page .content-center {
+  background: none !important;
+}
+
+.skills-section .btn.btn-icon {
+  border-radius: 50%;
+  font-size: 24px;
+  height: 56px;
+  margin: auto;
+  min-width: 56px;
+  width: 56px;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  line-height: normal;
+}
+i.devicon-javascript-plain, i.devicon-react-original, i.devicon-jquery-plain, i.devicon-ruby-plain, i.devicon-rails-plain, i.devicon-postgresql-plain, i.devicon-photoshop-line, i.devicon-illustrator-line, i.devicon-github-plain, i.devicon-bootstrap-plain, i.devicon-atom-original, i.devicon-nodejs-plain, i.devicon-angularjs-plain, i.devicon-mongodb-plain {
+  position: absolute;
+  top: 13px;
+  left: 12px;
+  font-size: 30px;
+}
+.skills-section {
+  background: transparent;
+  margin-top: -65px;
+}
+.no-click {
+  pointer-events: none;
+}
+.contact-me-page .content-center {
+  background-color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.contact-me-page i.now-ui-icons.ui-1_email-85, .contact-me-page i.now-ui-icons.users_circle-08 {
+  padding-right: 30px;
+}
+.resume-page .page-header .container>.content-center {
+  top: 100%;
+}
+img.img-raised.resume-png {
+  margin-top: -280px;
+}
+.description, .card-description, .footer-big p {
+  color: black;
+}
+.black-input-placeholder::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black !important;
+}
+.black-input-placeholder::-moz-placeholder { /* Firefox 19+ */
+  color: black !important;
+}
+.black-input-placeholder:-ms-input-placeholder { /* IE 10+ */
+  color: black !important;
+}
+.black-input-placeholder:-moz-placeholder { /* Firefox 18- */
+  color: black !important;
+}

@@ -1,0 +1,61 @@
+<div class="section section-team see-through text-center">
+  <div class="container">
+    <div class="section section-contact-us text-center">
+      <div class="container">
+        <h2 class="title">Want to work with me?</h2>
+        <p class="description">Drop me a line...</p>
+        <div class="row">
+          <div class="col-lg-6 text-center col-md-8 ml-auto mr-auto">
+            <form name ="addForm" novalidate>
+              <div class="input-group input-lg">
+                <span class="input-group-addon orange-me1">
+                  <i class="now-ui-icons users_circle-08"></i>
+                </span>
+                <input type="text" ng-model="formData.name" id="full-name" class="form-control" placeholder="Name..." ng-click="matchBorder('name')" required>
+              </div>
+              <div class="input-group input-lg">
+                <span class="input-group-addon orange-me2">
+                  <i class="now-ui-icons ui-1_email-85"></i>
+                </span>
+                <input type="text" ng-model="formData.email" id="e-mail" class="form-control" placeholder="Email..." ng-click="matchBorder('email')" required>
+              </div>
+              <div class="textarea-container">
+                <textarea ng-model="formData.message" class="form-control" name="name" rows="4" cols="80" placeholder="Type a message..." ng-click="matchBorder('message')" required></textarea>
+              </div>
+              <div class="send-button">
+                <a href="" class="btn btn-primary btn-round btn-block btn-lg" ng-click="createContact()" ng-disabled="addForm.$invalid">Send Message</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section section-team" id="list">
+  <div class="container">
+    <div class="row">
+      <div style="width: 100%">
+        <table class="table table-striped ">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Message</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="contact in contacts">
+              <td>{{ contact.name }}</td>
+              <td>{{ contact.email }}</td>
+              <td>{{ contact.message }}</td>
+              <td><button type="button" name="button" class="btn btn-danger btn-round" ng-click="deleteContact(contact._id)">Delete</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

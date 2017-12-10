@@ -1,0 +1,50 @@
+.-card_game-war { /* body */ /* playing cards */ }
+.-card_game-war .container .card1, .-card_game-war .container .card { display: inline-block; }
+.-card_game-war .club { color: #000000; }
+.-card_game-war .diamond { color: #ff0000; }
+.-card_game-war .spade { color: #000000; }
+.-card_game-war .heart { color: #ff0000; }
+.-card_game-war .card1 { width: 175px; height: 285px; background-color: #ffffff; border-radius: 5px; font-size: 50px; padding-top: 15px; }
+.-card_game-war .card1.heart::before { content: '\2665'; }
+.-card_game-war .card1.diamond::before { content: '\2666'; }
+.-card_game-war .card1.spade::before { content: '\2660'; }
+.-card_game-war .card1.club::before { content: '\2663'; }
+.-card_game-war .card { width: 175px; height: 285px; background-color: #ffffff; border-radius: 7%; font-size: 20px; position: relative; }
+.-card_game-war .card div { position: absolute; } .-card_game-war .top { left: 7px; top: 2px; }
+.-card_game-war .bottom { bottom: 2px; right: 7px; -webkit-transform: rotate(-180deg); -moz-transform: rotate(-180deg); -ms-transform: rotate(-180deg); -o-transform: rotate(-180deg); transform: rotate(-180deg); }
+.-card_game-war .suit { top: 17px; }
+.-card_game-war .heart .suit::before { content: '\2665'; }
+.-card_game-war .diamond .suit::before { content: '\2666'; }
+.-card_game-war .spade .suit::before { content: '\2660'; }
+.-card_game-war .club .suit::before { content: '\2663'; }
+.-card_game-war .v1 .number::before { content: 'A'; }
+.-card_game-war .v2 .number::before { content: '2'; }
+.-card_game-war .v3 .number::before { content: '3'; }
+.-card_game-war .v4 .number::before { content: '4'; }
+.-card_game-war .v5 .number::before { content: '5'; }
+.-card_game-war .v6 .number::before { content: '6'; }
+.-card_game-war .v7 .number::before { content: '7'; }
+.-card_game-war .v8 .number::before { content: '8'; }
+.-card_game-war .v9 .number::before { content: '9'; }
+.-card_game-war .v10 .number::before { content: '10'; }
+.-card_game-war .v11 .number::before { content: 'J'; }
+.-card_game-war .v12 .number::before { content: 'Q'; }
+.-card_game-war .v13 .number::before { content: 'K'; }
+.-card_game-war .card.back { background-color: #F9BA15; border: 5px solid #ffffff; background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/82473/bicycle-card.jpg); background-repeat: round; }
+.-card_game-war h1 { width: 100%; font-weight: bold; text-align: center; color: rgba(255, 255, 255, 0.3); text-shadow: -1px -1px rgba(0, 0, 0, 0.2); }
+.-card_game-war .card-block { width: 20%; margin: 0 auto; }
+.-card_game-war .card-container { min-height: 79px; height: 384px; background: white; color: black; border-radius: 10px; }
+.-card_game-war .card-container h2, .-card_game-war .card-container h4 { text-align: center; }
+.-card_game-war .card-container h2 { padding-top: 38px; font-size: 38px; }
+.-card_game-war .card-container h4 { font-size: 22px; }
+.-card_game-war .row-centered { text-align: center; }
+.-card_game-war .play-war { text-align: center; bottom: 250px; left: 47%; position: relative; z-index: 9; }
+.-card_game-war .-card_game-war .drop-it { display: flex; flex-direction: row-reverse; justify-content: space-between; }
+.-card_game-war .drop-it { padding-top: 150px; }
+.-card_game-war .footer ul li a { color: black; }
+.-card_game-war h1.who { padding-top: 100px; padding-left: 15px; }
+.-card_game-war .card-count.text-info.me { margin-top: -25px; }
+.-card_game-war button.btn.btn-link.btn-neutral.text-center { width: 100%; }
+.-card_game-war button#play-ball { position: absolute; bottom: 20%; left: 46%; z-index: 99; }
+.-card_game-war .modal.modal-mini .modal-profile i { font-size: 25px; }
+.modal-backdrop { z-index: 0; }

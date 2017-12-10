@@ -1,0 +1,62 @@
+<div class="-card_game-war">
+  <div class="login-page sidebar-collapse">
+    <div class="page-header" filter-color="orange">
+      <div class="page-header-image randomize-bg-image" style="background-image:url(/img/bg3.jpg)"></div>
+      <div class="container">
+        <div class="">
+          <div class="modal fade modal-mini modal-primary" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header justify-content-center">
+                  <div class="modal-profile">
+                    <i class="result fa" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <p class="result-text"></p><br>
+                  <div class="card-count text-info text-center me">Your cards remaining: <span class="" id="my-card-count"></span></div>
+                  <hr>
+                  <div class="card-count text-info text-center them">Their cards remaining: <span class="" id="opp-card-count"></span></div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-link btn-neutral text-center" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="container card-cont">
+              <div class="drop-it">
+                <div class="card back"></div>
+                <div class="card" id="card-id-player1">
+                  <div class="top">
+                    <div class="number"></div>
+                    <div class="suit"></div>
+                  </div>
+                  <div class="bottom">
+                    <div class="number"></div>
+                    <div class="suit"></div>
+                  </div>
+                </div>
+                <div class="card" id="card-id-player2">
+                  <div class="top">
+                    <div class="number"></div>
+                    <h1 class="who">You</h1>
+                    <div class="suit"></div>
+                  </div>
+                  <div class="bottom">
+                    <div class="number"></div>
+                    <div class="suit"></div>
+                  </div>
+                </div>
+                <div class="card back"></div>
+              </div>
+            </div>
+            <button class="btn btn-primary btn-round btn-lg" id="play-ball" data-toggle="modal" data-target="#myModal1">
+              Play!
+            </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

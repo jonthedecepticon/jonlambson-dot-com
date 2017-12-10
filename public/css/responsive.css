@@ -1,0 +1,31 @@
+@media (max-width: 1025px) {
+}
+@media (max-width: 769px) {
+  img.img-raised.resume-png {
+    margin-top: -800px;
+  }
+  footer.footer.footer-default {
+    margin-top: 120px;
+  }
+  .page-header:after, .page-header:before {
+    height: 111.7%;
+  }
+  .page-header .page-header-image {
+    height: 111.7%;
+  }
+  .skills-section .button-container {
+    margin-top: 40px;
+  }
+  .section.section-about-us {
+    margin-top: 70px;
+  }
+}
+
+@media (max-width: 376px) {
+  .section.section-about-us {
+    margin-top: 200px;
+  }
+  img.img-raised.resume-png {
+    margin-top: -640px;
+  }
+}
