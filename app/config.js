@@ -4,8 +4,8 @@ module.exports = {
 
     mongolab:
     {
-        name: "",
-        url: "",
+        name: "mongolab",
+        url: "mongodb://BigCoder:BigCoder!@ds139817.mlab.com:39817/heroku_cnkn5vpn",
         port: 27017
     },
 
